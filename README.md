@@ -17,7 +17,7 @@ Sistema simples de cadastro de usuários desenvolvido em Java para fins acadêmi
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/GuilhermeLuan/gerenciador-de-estoque
+   git clone https://github.com/GuilhermeLuan/Teste-de-unidade-em-Java-com-JUnit
    cd gerenciador-de-estoque
    ```
 
@@ -36,8 +36,6 @@ Sistema simples de cadastro de usuários desenvolvido em Java para fins acadêmi
    O projeto inclui 4 testes JUnit:
    - ✅ Teste de conexão bem-sucedida
    - ✅ Teste de falha com credenciais inválidas
-   - ✅ Teste de falha com banco inexistente
-   - ✅ Teste de falha com host inválido
 
 4. **Execute a aplicação de exemplo:**
    ```bash
@@ -51,7 +49,7 @@ Sistema simples de cadastro de usuários desenvolvido em Java para fins acadêmi
 
 ---
 
-## 📊 Estrutura do Banco de Dados
+## Estrutura do Banco de Dados
 
 ```sql
 CREATE TABLE Usuario (
@@ -62,17 +60,3 @@ CREATE TABLE Usuario (
 ```
 
 ---
-
-## 📝 Exemplo de Uso
-
-```java
-// Criar uma instância do DAO
-UsuarioDao usuarioDao = DaoFactory.createUsuarioDao();
-
-// Inserir um novo usuário
-Usuario usuario = new Usuario("João Silva", "joao@email.com");
-usuarioDao.insert(usuario);
-
-// Buscar todos os usuários
-List<Usuario> usuarios = usuarioDao.findAll();
-```
