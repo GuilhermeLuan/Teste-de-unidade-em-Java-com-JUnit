@@ -1,0 +1,2 @@
+#n:CadastrarProdutos
+#i:(varchar(100),text,int unsigned,decimal(10,2),decimal(10,2))P
